@@ -66,7 +66,7 @@ function SearchBar({showStockedOnly, onStockedOnlyChange, search, onSearchChange
                 onChange={setSearchRange}
             />
             
-            <p>Prix max : {searchRange}$</p>
+            <p>Prix : {searchRange}$</p>
 
             <Checkbox 
                 id="stocked"
